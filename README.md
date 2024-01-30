@@ -9,3 +9,6 @@ Criar uma aplicação em uma linguagem de programação de sua preferência. A a
 **Acessar a pasta inicial do projeto:** `.../Engenharia_de_Software-Desafio_Diogo_Montalvao-master`
 
 **Executar o comando no terminal:** `java -jar src/main/kotlin/Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar`
+
+## Link para a planilha
+https://docs.google.com/spreadsheets/d/1TDNQ2ktrrtx_oiXkEwIYcU_kuYY9dHMqvLoMWQfX86g/edit?usp=sharing
