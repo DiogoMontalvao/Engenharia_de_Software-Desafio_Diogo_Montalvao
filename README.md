@@ -6,6 +6,6 @@ Criar uma aplicação em uma linguagem de programação de sua preferência. A a
 ## Requisitos e comandos para rodar a aplicação
 **Requisitos:** `Java 21` e email para adicionar Test user.
 
-**Acessar a pasta inicial do projeto:** `...\Engenharia_de_Software-Desafio_Diogo_Montalvao-master`
+**Acessar a pasta inicial do projeto:** `.../Engenharia_de_Software-Desafio_Diogo_Montalvao-master`
 
-**Executar o comando no terminal:** `java -jar .\src\main\kotlin\Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar`
+**Executar o comando no terminal:** `java -jar src/main/kotlin/Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar`
