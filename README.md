@@ -4,7 +4,7 @@ Parte integrante do processo seletivo, o desafio de programação tem como objet
 ## Desafio
 Criar uma aplicação em uma linguagem de programação de sua preferência. A aplicação deve ser capaz de ler  uma planilha do google sheets, buscar as informações necessárias, calcular e escrever o  resultado na planilha. 
 ## Requisitos e comandos para rodar a aplicação
-**Requisito:** `Java 21` e email para adicionar Test user.
+**Requisitos:** `Java 21` e email para adicionar Test user.
 
 **Acessar a pasta inicial do projeto:** `...\Engenharia_de_Software-Desafio_Diogo_Montalvao-master`
 
