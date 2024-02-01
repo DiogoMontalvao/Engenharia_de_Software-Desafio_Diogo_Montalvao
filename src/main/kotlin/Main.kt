@@ -30,6 +30,7 @@ private object SheetsQuickstart {
         val spreadsheetId = "1TDNQ2ktrrtx_oiXkEwIYcU_kuYY9dHMqvLoMWQfX86g"
         val range = "engenharia_de_software!A4:H"
 
+        // Create the sheets API client.
         val service = Sheets
             .Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
             .setApplicationName(APPLICATION_NAME)
@@ -91,9 +92,9 @@ private object SheetsQuickstart {
     /**
      * Returns a range of values from a spreadsheet.
      *
-     * @param spreadsheetId - Id of the spreadsheet.
+     * @param spreadsheetId - ID of the spreadsheet.
      * @param range         - Range of cells of the spreadsheet.
-     * @param service       - Create the sheets API client.
+     * @param service       - The sheets API client.
      * @return Values in the range.
      */
     private fun getValues(spreadsheetId: String, range: String, service: Sheets): ValueRange {
@@ -113,7 +114,7 @@ private object SheetsQuickstart {
      * @param range            - Range of cells of the spreadsheet.
      * @param valueInputOption - Determines how input data should be interpreted.
      * @param values           - List of rows of values to input.
-     * @param service          - Create the sheets API client.
+     * @param service          - The sheets API client.
      * @return Spreadsheet with updated values.
      */
     private fun updateValues(
@@ -147,10 +148,10 @@ private object SheetsQuickstart {
         val indiceFaltas = faltas / totalAulasSemestre
         val mediaProvas = calculaMediaProvas(totalProvas)
 
-        when {
-            mediaProvas < 5 -> situacao = "Reprovado por Nota"
-            mediaProvas in 5..6 -> situacao = "Exame Final"
-            else -> situacao = "Aprovado"
+        situacao = when {
+            mediaProvas < 5 -> "Reprovado por Nota"
+            mediaProvas in 5..6 -> "Exame Final"
+            else -> "Aprovado"
         }
 
         if (indiceFaltas > 0.25) situacao = "Reprovado por Falta"
@@ -168,12 +169,11 @@ private object SheetsQuickstart {
         val notaAprovacaoFinal: Int
         val mediaProvas = calculaMediaProvas(totalProvas)
 
-        notaAprovacaoFinal =
-            if (situacao != "Exame Final") {
-                0
-            } else {
-                10 - mediaProvas
-            }
+        notaAprovacaoFinal = if (situacao != "Exame Final") {
+            0
+        } else {
+            10 - mediaProvas
+        }
 
         return notaAprovacaoFinal
     }

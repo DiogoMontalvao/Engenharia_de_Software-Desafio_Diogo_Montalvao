@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f66a1060-b5fe-4337-9a3e-bf960f976a2b" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/tokens/path/StoredCredential" afterDir="false" />
+    <list default="true" id="f66a1060-b5fe-4337-9a3e-bf960f976a2b" name="Changes" comment="Final Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tokens/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +66,9 @@
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -81,29 +79,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.Build Engenharia_de_Software-Desafio_Diogo_Montalvao.executor": "Run",
-    "Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [build].executor": "Run",
-    "Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [clean].executor": "Run",
-    "Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [jar].executor": "Run",
-    "JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar (1).executor": "Run",
-    "JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.SheetsQuickstart.executor": "Run",
-    "Kotlin.TesteKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/montalvao/Documents/IntelliJ/Engenharia_de_Software-Desafio_Diogo_Montalvao/src/main/resources",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build Engenharia_de_Software-Desafio_Diogo_Montalvao.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [jar].executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar (1).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SheetsQuickstart.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TesteKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/montalvao/Documents/IntelliJ/Engenharia_de_Software-Desafio_Diogo_Montalvao/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -207,12 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706495274518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final Commit">
+      <option name="closed" value="true" />
+      <created>1706650485996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706650485996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Final Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
   </component>
 </project>
