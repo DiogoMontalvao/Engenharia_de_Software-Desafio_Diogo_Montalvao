@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f66a1060-b5fe-4337-9a3e-bf960f976a2b" name="Changes" comment="Final Commit">
+    <list default="true" id="f66a1060-b5fe-4337-9a3e-bf960f976a2b" name="Changes" comment="Refatoração">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar (1)">
+  <component name="RunManager" selected="Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [jar]">
     <configuration name="Engenharia_de_Software-Desafio_Diogo_Montalvao [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,20 +165,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar (1)" />
         <item itemvalue="Gradle.Engenharia_de_Software-Desafio_Diogo_Montalvao [jar]" />
+        <item itemvalue="JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar (1)" />
         <item itemvalue="Kotlin.SheetsQuickstart" />
         <item itemvalue="Kotlin.TesteKt" />
         <item itemvalue="JAR Application.Engenharia_de_Software-Desafio_Diogo_Montalvao-1.0-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -213,13 +206,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706650485996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refatoração">
+      <option name="closed" value="true" />
+      <created>1706779889113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706779889113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit inicial" />
     <MESSAGE value="Final Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
+    <MESSAGE value="Refatoração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração" />
   </component>
 </project>
